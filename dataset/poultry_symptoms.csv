@@ -1,0 +1,9 @@
+fever,diarrhea,lethargy,egg_drop,droopy_wings,disease
+1,1,1,1,1,Coccidiosis
+1,0,1,1,0,New Castle Disease
+0,1,1,0,1,Salmonella
+0,0,0,0,0,Healthy
+1,1,0,1,1,Coccidiosis
+1,0,1,0,1,New Castle Disease
+0,1,0,0,1,Salmonella
+0,0,0,0,0,Healthy
