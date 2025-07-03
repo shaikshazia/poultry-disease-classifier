@@ -33,5 +33,13 @@ if st.button("Predict Disease"):
     st.success(f"🧪 Predicted Disease: **{disease}**")
     
     # Optional: Add treatment suggestions
+       # Optional: Add treatment suggestions
     treatments = {
-        "Co
+        "Coccidiosis": "Use Amprolium or other anticoccidial medications.",
+        "New Castle Disease": "Isolate affected birds and consult a vet for vaccination protocols.",
+        "Salmonella": "Administer antibiotics and maintain hygiene.",
+        "Healthy": "No disease detected. Maintain good hygiene and monitor regularly."
+    }
+    
+    st.info(f"💊 Recommended Treatment: {treatments.get(disease, 'Consult a vet.')}")
+
